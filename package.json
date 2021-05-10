@@ -16,6 +16,13 @@
   },
   "scripts": {
     "start": "node index.js"
+  },
+  {
+  "name": "superbutton",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+   "node": "14.16.1"
   }
 }
 
