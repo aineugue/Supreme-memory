@@ -1,25 +1,31 @@
 {
-  "name": "super button",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
-  "version": "1.0.0",
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
   "engines": {
-     "node": "14.16.1"
+    "node": "14.x"
   },
+  "main": "index.js",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
   },
-  "scripts": {
-    "start": "node main.js"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
-
